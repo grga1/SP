@@ -14,24 +14,17 @@ int main(){
     {  temp=i;
         do {
             temp1=temp%10;
-
             if(temp1%2==0)
             {
                 s2++;
             }
-
             s1++;
-
-
             temp/=10;
         }while(temp!=0);
 
         if(s2==s1&&i<min)
         {
-
             min=i;
-
-
         }
         s1=0;
         s2=0;
@@ -41,15 +34,11 @@ int main(){
  int min1,minn=min;
     do {
         min1=minn%10;
-
         if(min1%2==0)
         {
             s2++;
         }
-
         s1++;
-
-
         minn/=10;
     }while(minn!=0);
     if(s1==s2)
